@@ -1,7 +1,5 @@
 ---
-layout: layout
 title: HTTPS原理
-date: 2020-04-04 13:38:15
 categories:
   - - 前端
     - 计算机网络
@@ -9,6 +7,8 @@ tags:
   - https
   - 计算机网络
   - 通信加密
+abbrlink: ab1d60f8
+date: 2020-04-04 13:38:15
 ---
 
 # https
@@ -53,7 +53,7 @@ https主要解决了web的信息安全问题。 因为http1.1中通信才用明�
 
 非对称加密看似安全，但是黑客还是可以在传输中截获信息，冒充用户与服务端通信，再冒充服务端用用户通信，这样就能截获服务端和用户端的公钥进行解密了。
 
-![img](https://upload-images.jianshu.io/upload_images/264052-c17453a8455daf75.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/882/format/webp)
+![image-20200415142603836](https://raw.githubusercontent.com/Wxl-c137/Image-Hosting/master/img/20200415142605.png)
 
 ---
 
